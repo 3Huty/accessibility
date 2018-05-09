@@ -19,11 +19,11 @@ body {
 /* || typography */
 
 h1 {
-    font-family: 'Sonsie One', cursive;
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 10px black;
+  font-family: 'Sonsie One', cursive;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 10px black;
 }
 
 h2, h3 {
@@ -50,7 +50,7 @@ h2 p {
 }
 
 .about-author {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 p, li, table {
@@ -78,7 +78,7 @@ nav {
   background-color: whitesmoke;
   display: flex;
   padding: 1% 0;
-  margin-bottom: 10px;;
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -92,7 +92,7 @@ nav li {
   display: inline;
   text-align: center;
   flex: 1;
-}
+  }
 
 nav a {
   display: inline-block;
@@ -101,10 +101,8 @@ nav a {
   text-decoration: none;
   text-align: center;
   color: black;
-  
 
 }
-
 nav .search {
   flex: 1;
   display: flex;
@@ -128,7 +126,7 @@ nav .search {
   background: #333;
   border: 0;
   color: white;
-}
+  }
 
 /* || main layout */
 
@@ -185,14 +183,15 @@ audio {
 }
 
 button {
-    width: 200px;
-    display: block;
-    margin: 0,auto;
-    padding: 8px;
-    font-size: 17px;
-    background-color: white;
-        
-    
+  width: 200px;
+  display: block;
+  margin: 0,auto;
+  padding: 8px;
+  font-size: 17px;
+  background-color: gainsboro;
+  width: 53%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Comments styling */
@@ -206,11 +205,11 @@ button {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
+.comments {
   font-size: 2rem;
 }
 
-.comments font[size="6"]:nth-of-type(2) {
+.comments:nth-of-type(2) {
   margin-bottom: 0;
 }
 
@@ -219,6 +218,8 @@ button {
 }
 
 .comment-form .flex-pair {
+  font-family: 'Sonsie One';
+  font-size: 1,3rem;
   display: flex;
   padding: 0 3rem 1rem;
 }
@@ -237,6 +238,7 @@ button {
 .show-hide {
   text-align: center;
   width: 180px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .comment-form input, .comment-form label, .show-hide {
@@ -274,4 +276,4 @@ button {
   flex: 5;
 }
 
-/* 1. Color contrast - Normal text: WCAG AA: Fail, WCAG AAA: Fail; Large text: WCAG AAA: Fail - zmieniono background*/
+/* 1. Color contrast - Normal text: WCAG AA: Fail, WCAG AAA: Fail; Large text: WCAG AAA: Fail - zmieniony background*/

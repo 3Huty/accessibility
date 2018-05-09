@@ -5,7 +5,7 @@
 
     <title>Accessibility assessment</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
@@ -52,7 +52,7 @@
         <p>Bears come in two varieties — large and medium. You don't get small bears. If you have seen a small bear, then it was in fact probably a baby bear (cub) from another species.</p>
         <p>Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.</p>
         
-        <table>
+       <table>
           <thead>
             <tr>
               <th scope="col">Bear Type</th>
@@ -62,9 +62,9 @@
               <th scope="col">Lifespan</th>
               <th scope="col">Diet</th>
             </tr>
-          </thead>
+           </thead>
           
-            <tbody>
+           <tbody>
             <tr>
               <th scope="row">Wild</th>
               <td>Brown or black</td>
@@ -81,25 +81,27 @@
               <td>20 to 32 years</td>
               <td>Starbucks, sushi</td>
             </tr>
-          </tbody>
+           </tbody>
         </table>
 
         <h3>Habitats and Eating habits</h3>
+          
          <p>Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.</p>
         
-        <img src="media/wild-bear.jpg"
+         <img src="media/wild-bear.jpg"
              alt="A wild brown bear standing in the water"
              title="Wild brown bear">
         
          <p>Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.</p>
         
-        <img src="media/urban-bear.jpg"
+         <img src="media/urban-bear.jpg"
              alt="An urban bear sitting in the cage, black and white photo."
              title="The urban bear">
         
          <p>Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.</p>
         
         <h3>Mating rituals</h3>
+          
          <p>Bears are romantic creatures by nature, and will naturally look for a mate that they can spend the rest of their lives with. They will woo a potential suitor by making their dwelling look attractive — for example with cave paintings or a bed of reeds in the case of a wild bear, and mood lighting and a Michael Bublé CD in the case of an urban bear.</p>
          <p>The following audio clip contains a fact file providing more details about bear mating rituals, along with samples and quotes from experts.</p>
         
@@ -108,10 +110,10 @@
           <source src="media/bear.mp3" type="audio/mp3">
           <source src="media/bear.ogg" type="audio/ogg">
           <p>It looks like your browser doesn't support HTML5 audio players.Here is a <a href="media/bear.mp3">link to the audio</a></p>
-        </audio>
-      </section>
+         </audio>
+       </section>
             
-      <div class="transcript-container">
+       <div class="transcript-container">
         <div class="transcript-control">
           <button>Show transcript</button>
         </div>
@@ -119,30 +121,30 @@
         <section class="transcript">
          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at convallis libero, ut ultricies massa. Integer vel tempor nisi. Nunc scelerisque enim est. Duis lorem ipsum, semper vitae sem at, ultricies interdum ex.</p>
         </section>
-      </div>
+       </div>
 
-      <aside>
+       <aside>
         <h3 class='about-author'>About the author</h3>
           <p>Evan Wild is an unemployed plumber from Doncaster, who has been really "in to" wildlife since childhood. He once went to Chester Zoo on holiday, but got ill after eating a doner kebab.</p>
           
           <p>He has never seen a bear, but once read a Daily Mail article about them, and thinks they sound cool.</p>
-      </aside>
+       </aside>
         
-      <section class="comments">
+       <section class="comments">
         <div class="show-hide" tabindex="0">Show comments</div>
 
         <div class="comment-wrapper">
 
           <h2>Add comment</h2>
-
+            
           <form class="comment-form">
             <div class="flex-pair">
-              Your name:
+              <label for='name'>Your name:</label>
               <input type="text" name="name" id="name" placeholder="Enter your name">
             </div>
               
             <div class="flex-pair">
-              Your comment:
+              <label for='comment'>Your comment:</label>
               <input type="text" name="comment" id="comment" placeholder="Enter your comment">
             </div>
               
@@ -160,9 +162,9 @@
             </li>
            </ul>
             
-         </div>
+          </div>
         
-       </section>
+         </section>
       
     </article>
            
@@ -185,11 +187,11 @@
       <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
 
-    <script src="main/main.js"></script>
+    <script src="main.js"></script>
 
   </body>
 </html>
 
-<!-- Odpowiedzi do zadania: Problemy w Semantic HTML: 
-mały font, brak 'headings', brak 'alt/title/aria' przy zdjęciach, <br> zamiast <p>, brak 'scope', menu w <div> zamiast <nav>, aside menu w <div> zamiast <aside>, brak <labe> w 'form', brak <button> przy przycisku.-->
+<!-- Odpowiedzi do zadania: Problemy: 
+mały, nieczytelny font, brak 'headings', brak 'alt/title' przy zdjęciach, <br> zamiast <p>, brak 'scope' w 'table', menu w <div> zamiast <nav>, aside menu w <div> zamiast <aside>, brak <label> w 'form', brak <button> przy przycisku.-->
 <!-- Możliwe dodatkowe udogodnienia: 'caption' w tabeli.-->
