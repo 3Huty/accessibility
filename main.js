@@ -3,6 +3,7 @@
 var transcript = document.querySelector('.transcript');
 var transcriptBtn = document.querySelector('.transcript-container button');
 
+
 transcriptBtn.onclick = function() {
   if(transcriptBtn.textContent === 'Show transcript') {
     transcript.style.height = '150px';
@@ -12,6 +13,7 @@ transcriptBtn.onclick = function() {
     transcriptBtn.textContent = 'Show transcript';
   }
 };
+
 
 // functionality for showing/hiding the comments section
 
