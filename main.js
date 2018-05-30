@@ -5,14 +5,14 @@ var transcriptText = document.querySelector('.transcript');
 
 transcriptBtn.onclick = function() {
   var showHideText = transcriptBtn.textContent;
-  if(showHideText === 'Show transcript') {
-    transcriptText.style.height = '150px';
-    transcriptBtn.textContent = 'Hide transcript';
-  } else {
-    transcriptText.style.height = '0';
-    transcriptBtn.textContent = 'Show transcript';
-    transcriptText.style.display = 'none';
-    }
+    if(showHideText === 'Show transcript') {
+      transcriptText.style.height = '150px';
+      transcriptBtn.textContent = 'Hide transcript';
+    } else {
+      transcriptBtn.textContent = 'Show transcript'; 
+      transcriptText.style.height = '0';
+      transcriptText.style.display = 'none';
+  }
 };
 
 
