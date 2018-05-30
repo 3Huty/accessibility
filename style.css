@@ -128,7 +128,6 @@ nav .search {
   background: #333;
   border: 0;
   color: white;
-    text-align:justify;
   }
 
 /* || main layout */
@@ -198,7 +197,7 @@ button {
 }
 
 .transcript p {
-    visibility:hidden;
+    visibility:flex;
 }
 
 

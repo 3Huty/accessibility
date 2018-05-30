@@ -1,17 +1,18 @@
 //functionality for adding transcript
     
-var transcript = document.querySelector('.transcript');
-var transcriptBtn = document.querySelector('.transcript-container button');
-
+var transcriptBtn = document.querySelector('.transcript-control button');
+var transcriptText = document.querySelector('.transcript');
 
 transcriptBtn.onclick = function() {
-  if(transcriptBtn.textContent === 'Show transcript') {
-    transcript.style.height = '150px';
+  var showHideText = transcriptBtn.textContent;
+  if(showHideText === 'Show transcript') {
+    transcriptText.style.height = '150px';
     transcriptBtn.textContent = 'Hide transcript';
   } else {
-    transcript.style.height = '0';
+    transcriptText.style.height = '0';
     transcriptBtn.textContent = 'Show transcript';
-  }
+    transcriptText.style.display = 'none';
+    }
 };
 
 
