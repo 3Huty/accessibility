@@ -7,6 +7,7 @@ transcriptBtn.onclick = function() {
   var showHideText = transcriptBtn.textContent;
     if(showHideText === 'Show transcript') {
       transcriptText.style.height = '150px';
+         transcriptText.style.display = 'none';
       transcriptBtn.textContent = 'Hide transcript';
     } else {
       transcriptBtn.textContent = 'Show transcript'; 
