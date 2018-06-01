@@ -3,12 +3,14 @@
 var transcriptBtn = document.querySelector('.transcript-control button');
 var transcriptText = document.querySelector('.transcript');
 
+transcriptText.style.display = 'none';
+
 transcriptBtn.onclick = function() {
   var showHideText = transcriptBtn.textContent;
     if(showHideText === 'Show transcript') {
-      transcriptText.style.height = '150px';
-         transcriptText.style.display = 'none';
+      transcriptText.style.height = '70px';
       transcriptBtn.textContent = 'Hide transcript';
+      transcriptText.style.display = '';
     } else {
       transcriptBtn.textContent = 'Show transcript'; 
       transcriptText.style.height = '0';
